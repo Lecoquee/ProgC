@@ -65,6 +65,5 @@ int operation(int num1, int num2, char op) {
         break;
         case 124 : printf("%d||%d=%d\n", num1, num2, ou(num1, num2));
         break;
-        return 0;
     }
 }
