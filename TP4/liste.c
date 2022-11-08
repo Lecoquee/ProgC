@@ -1,3 +1,8 @@
+/* Fichier: liste.c
+* prend le pointeur d'une liste de couleurs et affiche les couleurs dans la liste.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "liste.h"
