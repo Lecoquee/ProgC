@@ -1,3 +1,8 @@
+/* Fichier: factorielle.c
+* calcule la factorielle d'un entier naturel.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
