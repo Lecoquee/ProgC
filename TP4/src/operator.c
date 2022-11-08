@@ -1,11 +1,11 @@
-/* Fichier: operateur.c
+/* Fichier: operator.c
 * Objectif : Tester les différents opérateurs arithmétiques et logiques en utilisant switch
 * auteur: Julie Ludwig et Guillaume Bufferne
 */
 
 
 #include <stdio.h>
-#include "operateur.h"
+#include "operator.h"
 
 //On crée une fonction pour chaque opération
 int somme(int num1, int num2){
