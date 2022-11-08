@@ -1,5 +1,5 @@
-/* Fichier: operateur.h
-* contient le nom des fonctions de operateur.c.
+/* Fichier: operator.h
+* contient le nom des fonctions de operator.c.
 * auteur: Julie Ludwig et Guillaume Bufferne
 */
 
