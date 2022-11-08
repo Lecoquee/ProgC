@@ -1,3 +1,8 @@
+/* Fichier: fichier.h
+* contient le nom des fonctions de fichier.c.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #ifndef _FICHIER_H
 #define _FICHIER_H
 #include <stdlib.h>
