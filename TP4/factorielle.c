@@ -8,10 +8,10 @@
 
 int factorielle (int num) {
     if (num == 0) {
-        return 1;
+        return 1; //renvoie 1 si le nombre est égal à 0
     }
     else {
-        return (num * factorielle (num-1));
+        return (num * factorielle (num-1)); //calcul de la factorielle
     }
 }
 
@@ -19,7 +19,7 @@ int main(){
     int num;
     printf("Entrez le nombre factoriel à calculer: ");
     scanf("%d", &num);
-    int fact = factorielle(num);
-    printf("%d! = %d\n", num, fact);
+    int fact = factorielle(num); //calcul de la factorielle
+    printf("%d! = %d\n", num, fact); //affichage
     return 0;
 }
