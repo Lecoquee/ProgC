@@ -1,3 +1,8 @@
+/* Fichier: etudiant_bd.c
+* demande à l'utilisateur de saisir et sauvegarde les noms, prénoms, adresses, et les notes dans un fichier.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #define TAILLE_MAX 2000
