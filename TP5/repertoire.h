@@ -1,3 +1,8 @@
+/* Fichier: repertoire.h
+* contient le nom des fonctions de repertoire.c.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #ifndef _REPERTOIRE_H
 #define _REPERTOIRE_H
 
