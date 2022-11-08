@@ -1,3 +1,8 @@
+/* Fichier: fichier.c
+* prend le nom du fichier et affiche son contenu à l'écran/écrit le message saisi par l'utilisateur dans le fichier.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "fichier.h"
