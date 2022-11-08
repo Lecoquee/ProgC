@@ -72,9 +72,12 @@ int recois_envoie_message(int socketfd)
   // Si le message commence par le mot: 'message:'
   if (strcmp(code, "message:") == 0)
   {
-    renvoie_message(client_socket_fd, data);
+    char message[100];  //message à renvoyer au client
+    printf("Message pour le client : ");
+    scanf("%s",message);  //On récupère le message à renvoyer au client
+    strcat(data, message); //On concatène le message à envoyer
+    renvoie_message(client_socket_fd, data);  //On renvoie le message via la fonction renvoie_message
   }
-
   // fermer le socket
   close(socketfd);
   return (EXIT_SUCCESS);
