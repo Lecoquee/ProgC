@@ -18,6 +18,11 @@ int main(){
 
     int couleur = [rand()&0xff, rand()&0xff, rand()&0xff, rand()&0xff];
     insertion(couleur, struct liste_couleurs);
+    
+    int num1 = 2;
+    int num2 = 2;
+    char op = '+';
+    operation( num1, num2, op);
 
 
     return 0;

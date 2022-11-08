@@ -1,3 +1,8 @@
+/* Fichier: operateur.h
+* contient le nom des fonctions de operateur.c.
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
 #include <stdio.h>
 
 int operation(int num1, int num2, char op);

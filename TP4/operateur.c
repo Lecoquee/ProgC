@@ -1,6 +1,13 @@
+/* Fichier: operateur.c
+* Objectif : Tester les différents opérateurs arithmétiques et logiques en utilisant switch
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
+
 #include <stdio.h>
 #include "operateur.h"
 
+//On crée une fonction pour chaque opération
 int somme(int num1, int num2){
     int val = num1 + num2;
     return val;
@@ -37,6 +44,7 @@ int negation(int num1){
     return ~num1;
 }
 
+//On crée ensuite la fonction opération qui effectue l'opération voulu grâce à un switch case
 int operation(int num1, int num2, char op) {
 //    int num1;
 //    printf("Entrez le 1er numéro: ");
