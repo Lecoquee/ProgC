@@ -1,3 +1,9 @@
+/* Fichier: main.c
+* execution des fonctions des différents programmes
+* auteur: Julie Ludwig et Guillaume Bufferne
+*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "fichier.h"
